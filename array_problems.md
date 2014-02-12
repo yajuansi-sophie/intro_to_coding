@@ -38,4 +38,4 @@ We're going to take a matrix (a two-dimensional grid of numbers) and transpose i
 	 #     [1, 4, 7],
 	 #     [2, 5, 8]]
 
-This one's a little trickier than the other problems. Once you reach this, let me know so I can point you in the right direction.
+This one's a little trickier than the other problems. Let me know if you get stumped--there are some non-obvious roadblocks in your way.
