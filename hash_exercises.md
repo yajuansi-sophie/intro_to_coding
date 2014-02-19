@@ -38,6 +38,6 @@ Hint: if your `vote_count` is an Fixnum object type (it probably is), you might 
 
 ### hash_unscrambler
 
-Unfortunately, the military alphabet is all scrambled. Instead of an orderly code, our soldiers got the instructions `{"a" => "bravo", "b" => "charlie", c => "alpha", "d" => "delta"}`. Not all letters, clearly, are scrambled.
+Unfortunately, the military alphabet is all scrambled. Instead of an orderly code, our soldiers got the instructions `{"a" => "bravo", "b" => "charlie", c => "alpha", "d" => "delta"}`. Note that not all letters are scrambled.
 
 Your job is to unscramble this alphabet and return an orderly code. You'll probably want to write multiple functions to do this, although you could certainly do it in just one.
