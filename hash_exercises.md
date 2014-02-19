@@ -34,7 +34,7 @@ Write a function that increments the vote count by a given amount for a given po
 
 Next, write a function that prints out the results of the election in the format `candidate: vote_count` for each candidate.
 
-Hint: if your `vote_count` is an Fixnum object type (it probably is), you might have to use the (`to_s`)[http://www.ruby-doc.org/core-2.1.0/Fixnum.html#method-i-to_s] method to be able to print it out.
+Hint: if your `vote_count` is an Fixnum object type (it probably is), you might have to use the [`to_s`](http://www.ruby-doc.org/core-2.1.0/Fixnum.html#method-i-to_s) method to be able to print it out.
 
 ### hash_unscrambler
 
