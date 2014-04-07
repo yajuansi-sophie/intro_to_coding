@@ -112,5 +112,5 @@ When it doubt, cut it out.
 ### Required readings
 
 * [Chapter 18](http://ruby.learncodethehardway.org/book/ex18.html)
- and [Chapter 19](http://ruby.learncodethehardway.org/book/ex1.html) from Learn Ruby the Hard Way
+ and [Chapter 19](http://ruby.learncodethehardway.org/book/ex19.html) from Learn Ruby the Hard Way
 * [This Wikipedia article](https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Method_Calls), a comprehensive introduction to Ruby methods
