@@ -45,8 +45,8 @@ Say we had a method `compare_to_5` that tests the passed-in value to see if it's
 
 ```ruby
 def compare_to_5(number_to_compare)
-    if number_to_compare < 5
-        return "Your number is less than 5!"
+    if number_to_compare <= 5
+        return "Your number is less than or equal to 5!"
     elsif number_to_compare > 5
         return "Your number is greater than 5!"
     elsif number_to_compare == 5
@@ -78,8 +78,43 @@ print_when_not_equal_to_5(500) # => "Not equal to 5!"
 print_when_not_equal_to_5(5) # => "Equal to 5!"
 ```
 
-
 ### The case statement
+
+You'll come across case statements, which logically are very similar to the if-else construction above.
+
+Let's take a look at `compare_to_5` if it were implemented using a case statement.
+
+```ruby
+def compare_to_5(number_to_compare)
+    case number_to_compare <= 5
+    when true
+        return "Your number is less than or equal to 5!"
+    when false
+        return "Your number is greater than 5!"
+    else
+        return "Weird input alert!"
+    end
+end
+```
+
+You provide the case statement with something to evaluate. Based on the result of that evaluation, it will execute the code you specify. Nifty!
+
+Here's another example:
+
+```ruby
+def print_something(input)
+    case input
+    when true
+        return "This will always return!"
+    when false
+        return "This will never return!"
+    end
+end
+```
+
+Unless we explicity call `print_something(false)` (among a few other things), our method will always spit back "This will always return!"
+
+How is this the case when we don't provide a statement to evaluate? Welcome to truthiness and falsiness.
 
 ### Truthiness and falsiness in Ruby
 
