@@ -97,6 +97,20 @@ print_name("David") # => "David"
 print_name() # => "Anonymous"
 ```
 
+### Chaining methods
+
+Methods can be chained together, like so:
+
+```ruby
+"a string".capitalize.reverse # => "gnirts A"
+```
+
+The return value of the first method, `capitalize`, gets passed to the second method, `reverse`.
+
+Obviously, this will make your code concise. Beware, though, of chaining too many methods together (especially unrelated methods).
+
+Once you start converting and mixing types (i.e. `strings` with `integers`), you're on shaky ground. More than a few chained methods is usually a bad idea.
+
 ### Proper function size
 
 There are entire books written on how to name and structure functions. As you become a more experienced programmer, you'll surely stumble upon these.
