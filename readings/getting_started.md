@@ -9,3 +9,5 @@ It goes without saying that if you are on an outdated version of your software, 
 Feel free to reach out if you have any trouble with the installation process (although I can't say I've ever installed an environment on a Windows computer): michael@unroll.me.
 
 Finally, please head over to Codecademy and complete the first section, [Introduction to Ruby](http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1).
+
+Congratulations on beginning your programming journey!
