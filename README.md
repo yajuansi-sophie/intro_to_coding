@@ -24,19 +24,19 @@ There's a group of readings to do before you dive into the exercises for each se
 
 1. [Functions](readings/function_readings.md) ([exercises](exercises/function_exercises.md))
 2. [Control Flow](readings/control_flow_readings.md) ([exercises](exercises/control_flow_exercises.md))
-3. [Iteration](readings/iteration_readings.md) ([exercises](exercises/iteration_exercises.md))
-4. [Strings](readings/string_readings.md) ([exercises](exercises/string_exercises.md))
-5. [Arrays](readings/array_readings.md) ([exercises](exercises/array_exercises.md))
-6. [Hashes](readings/hash_readings.md) ([exercises](exercises/hash_exercises.md))
-7. [Strings](readings/string_readings.md) ([exercises](exercises/string_exercises.md))
-8. [Recursion](readings/recursion_readings.md) ([exercises](exercises/recursion_exercises.md))
-9. [Objects](readings/object_readings.md) ([exercises](exercises/object_exercises.md))
-10. [Classes](readings/class_readings.md) ([exercises](exercises/class_exercises.md))
-11. [Inheritance](readings/iteration_readings.md) ([exercises](exercises/inheritance_exercises.md))
-12. [Modules](readings/module_readings.md) ([exercises](exercises/module_exercises.md))
-13. [Regular Expressions](readings/regex_readings.md) ([exercises](exercises/regex_exercises.md))
-14. [Error Handling](readings/error_handling_readings.md) ([exercises](exercises/error_handling_exercises.md))
-15. [Metaprogramming](readings/metaprogramming_readings.md) ([exercises](exercises/metaprogramming_exercises.md))
+3. Iteration
+4. Strings
+5. Arrays
+6. Hashes
+7. Strings
+8. Recursion
+9. Objects
+10. Classes
+11. Inheritance
+12. Modules
+13. Regular Expressions
+14. Error Handling
+15. Metaprogramming
 
 ### Helpful tips
 
