@@ -36,15 +36,31 @@ print_name("michael", 5000000000)
 
 Our `print_name` method is now compact and reusable--a hallmark of good programming.
 
-### Finite versus infinite loops
+Let's unpack what's happening in the method above. `print_name` takes two arguments, a `name` to print and a number, `print_quota`, of times to print it.
+
+The Integer class in Ruby comes with a method called `times` (more detail [here](http://www.ruby-doc.org/core-2.1.1/Integer.html#method-i-times)).
+
+`times` will execute a given snippet of code as many times as we specify. This snippet of code is called a block, but don't worry about that just yet. We specify that snippet with the following structure:
+
+```ruby
+do |arbitrary_variable_name|
+    # code goes here
+end
+```
+
+In effect, we're creating a miniature, nameless method inside another method. We then execute this mini-method repeatedly. In the case above, we're using that code snippet to print a passed-in name.
+
+Iteration, clearly, is quite powerful.
 
 ### Simple versus complex iteration
 
 ### Conditional iteration
 
+### Finite versus infinite loops
+
 ### The magic of Enumerable
 
-### Blocks
+### Blocks in detail
 
 ### Procs
 
